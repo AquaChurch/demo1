@@ -19,7 +19,7 @@ const List: FC<any> = ({match, history}) => (
 
 export const CardList = () => (
     <Router>
-        <Route path={["/:id", "/"]} component={List}/>
+        <Route path={["/demo1/:id", "/demo1/"]} component={List}/>
     </Router>
 );
 
