@@ -13,7 +13,7 @@ function Card({ id, title, category, theme }) {
             className="card-image-container"
             layoutId={`card-image-container-${id}`}
           >
-            <img className="card-image" src={`images/${id}.jpg`} alt="" />
+            <img className="card-image" src={`/demo1/images/${id}.jpg`} alt="" />
           </motion.div>
           <motion.div
             className="title-container"
@@ -31,7 +31,7 @@ function Card({ id, title, category, theme }) {
           </motion.div>
         </motion.div>
       </div>
-      <Link to={id} className={`card-open-link`} />
+      <Link to={`/demo1/${id}`} className={`card-open-link`} />
     </li>
   );
 }

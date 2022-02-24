@@ -25,7 +25,7 @@ export default function App() {
       <AnimateSharedLayout type="crossfade">
         <Header />
         <Router>
-          <Route path={["/:id", "/"]} component={Store} />
+          <Route path={["/demo1/:id", "/demo1"]} component={Store} />
         </Router>
       </AnimateSharedLayout>
     </div>
